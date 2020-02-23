@@ -1,5 +1,7 @@
 # PyInsta
-a simple api for instagram
+Python Tutorial - Work with the Internal Instagram API, build a InstaFlower counter device(using Raspberry pi)
+
+In this tutorial under the pretext of training Python, we connect to Instagram and fetch the number of followers and following and display them in a simplified & fun device. Fetching every 5 seconds ... trying to enjoy programming while in practical training.
 
 ```python
         r = requests.get(f"https://www.instagram.com/{username}/?__a=1").json()
@@ -10,3 +12,4 @@ a simple api for instagram
 ```
 
 ![shot](screenshot.png)
+
