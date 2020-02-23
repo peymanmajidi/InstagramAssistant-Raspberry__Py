@@ -10,6 +10,8 @@ In this tutorial under the pretext of training Python, we connect to Instagram a
         posts = r['graphql']['user']['edge_owner_to_timeline_media']['count']
         return followers, following, posts
 ```
-
+Screenshot:
 ![shot](screenshot.png)
 
+A picture of final project:
+![device](device.jpg)
